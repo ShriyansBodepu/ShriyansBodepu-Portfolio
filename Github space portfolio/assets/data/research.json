@@ -1,0 +1,41 @@
+{
+  "primary": [
+    {
+      "type": "Interview",
+      "title": "Interview \u2014 [Professional Name], [Company]",
+      "topic": "[Topic/theme discussed]",
+      "date": "2025-09-15",
+      "link": "#"
+    },
+    {
+      "type": "Mentor Visit",
+      "title": "Mentor Visit \u2014 [Topic/theme discussed]",
+      "topic": "[What you learned / key insights]",
+      "date": "2025-10-02",
+      "link": "#"
+    },
+    {
+      "type": "Observation",
+      "title": "Observation \u2014 [Event / Lab / Facility]",
+      "topic": "[What you observed]",
+      "date": "2025-10-21",
+      "link": "#"
+    }
+  ],
+  "secondary": [
+    {
+      "type": "Article",
+      "title": "[Article subject/title]",
+      "topic": "[Subject label]",
+      "date": "2025-08-30",
+      "link": "#"
+    },
+    {
+      "type": "Paper",
+      "title": "[Paper title]",
+      "topic": "[Subject label]",
+      "date": "2025-09-10",
+      "link": "#"
+    }
+  ]
+}

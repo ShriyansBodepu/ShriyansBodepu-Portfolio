@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Research | Portfolio</title>
+  <meta name="description" content="Minimal, space-themed digital portfolio for ISM." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="index.html" aria-label="Go to Home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">Portfolio</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="about.html">About Me</a>
+        <a class="nav__link" href="ism.html">About ISM</a>
+        <a class="nav__link" href="blog.html">Weekly Progress</a>
+        <a class="nav__link is-active" href="research.html">Research</a>
+        <a class="nav__link" href="mentorship.html">Mentorship</a>
+        <a class="nav__link" href="projects.html">Projects</a>
+      </nav>
+
+      <button class="navToggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    
+  <div class="card" style="padding:18px">
+    <div class="kicker">Research</div>
+    <h1 style="margin:8px 0 12px">Primary & Secondary Sources</h1>
+    <p class="small">
+      Use the tabs + search to sift through interviews, mentor visits, observations, and secondary sources.
+      Add items in <span style="font-family:var(--mono)">assets/data/research.json</span>.
+    </p>
+    <div class="btnRow">
+      <button class="btn secondary nav__link is-active" data-tab="primary" type="button" style="cursor:pointer">Primary Sources</button>
+      <button class="btn secondary nav__link" data-tab="secondary" type="button" style="cursor:pointer">Secondary Sources</button>
+    </div>
+  </div>
+
+  <div class="card section" style="padding:0; overflow:hidden">
+    <div class="toolbar">
+      <div class="left">
+        <input class="input" id="researchSearch" type="search" placeholder="Search (name, company, topic…)" />
+        <select class="select" id="researchFilter" aria-label="Filter by type">
+          <option>All</option>
+        </select>
+      </div>
+      <div class="right">
+        <div class="small" id="researchCount">0 item(s)</div>
+      </div>
+    </div>
+
+    <div class="list" id="researchList"></div>
+  </div>
+
+  <script src="assets/js/research.js"></script>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>© <span id="year"></span> Your Name</span>
+      <span class="footer__dot" aria-hidden="true">•</span>
+      <a href="mailto:you@example.com">you@example.com</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home | Portfolio</title>
+  <meta name="description" content="Minimal, space-themed digital portfolio for ISM." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="index.html" aria-label="Go to Home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">Portfolio</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__link is-active" href="index.html">Home</a>
+        <a class="nav__link" href="about.html">About Me</a>
+        <a class="nav__link" href="ism.html">About ISM</a>
+        <a class="nav__link" href="blog.html">Weekly Progress</a>
+        <a class="nav__link" href="research.html">Research</a>
+        <a class="nav__link" href="mentorship.html">Mentorship</a>
+        <a class="nav__link" href="projects.html">Projects</a>
+      </nav>
+
+      <button class="navToggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    
+  <section class="card hero">
+    <div class="hero__media" role="img" aria-label="Astrophysics themed cover image"></div>
+    <div class="hero__content">
+      <div class="kicker">Astrophysics</div>
+      <h1 class="hero__title">Your Name</h1>
+      <p class="hero__subtitle">Topic of Study: Astrophysics (replace with your exact focus)</p>
+
+      <div class="quote">
+        “To the end, just like I first started”
+        <cite>— Lloyd Frontera</cite>
+      </div>
+    </div>
+  </section>
+
+  <section class="section grid">
+    <div class="card" style="padding:16px 16px 18px">
+      <h2>Quick Start</h2>
+      <p>
+        Use the tabs above to view research, weekly progress updates, mentorship notes, and project documentation.
+        This site is designed to meet the ISM 7-page non‑negotiables while staying minimal and space-themed.
+      </p>
+      <div class="btnRow">
+        <a class="btn" href="research.html">Explore Research</a>
+        <a class="btn secondary" href="projects.html">View Projects</a>
+      </div>
+    </div>
+
+    <aside class="card" style="padding:16px 16px 18px">
+      <h2>Contact</h2>
+      <p>For collaboration, interviews, or mentorship opportunities:</p>
+      <div class="section" style="margin-top:10px">
+        <div class="pills">
+          <span class="pill">📧 you@example.com</span>
+          <a class="pill" href="https://www.linkedin.com/in/YOUR-HANDLE/" target="_blank" rel="noreferrer">
+            <img src="assets/img/linkedin.svg" alt="" /> LinkedIn
+          </a>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>© <span id="year"></span> Your Name</span>
+      <span class="footer__dot" aria-hidden="true">•</span>
+      <a href="mailto:you@example.com">you@example.com</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
